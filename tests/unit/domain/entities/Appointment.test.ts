@@ -1,4 +1,4 @@
-import { Appointment } from '@domain/entities/Appointment';
+import { Appointment } from '../../../../src/domain/entities/Appointment';
 
 describe('Appointment Entity', () => {
   const baseProps = {
