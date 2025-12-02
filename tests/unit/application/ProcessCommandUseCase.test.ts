@@ -1,10 +1,10 @@
 import 'reflect-metadata';
-import { ProcessCommandUseCase } from '@application/use-cases/ProcessCommandUseCase';
-import { IAIService } from '@domain/services/IAIService';
-import { ICalendarService } from '@domain/services/ICalendarService';
-import { IAppointmentRepository } from '@domain/repositories/IAppointmentRepository';
-import { UserIntent } from '@application/dtos/UserIntents';
-import { Appointment } from '@domain/entities/Appointment';
+import { ProcessCommandUseCase } from '../../../src/application/use-cases/ProcessCommandUseCase';
+import { IAIService } from '../../../src/domain/services/IAIService';
+import { ICalendarService } from '../../../src/domain/services/ICalendarService';
+import { IAppointmentRepository } from '../../../src/domain/repositories/IAppointmentRepository';
+import { UserIntent } from '../../../src/application/dtos/UserIntents';
+import { Appointment } from '../../../src/domain/entities/Appointment';
 
 describe('ProcessCommandUseCase', () => {
   let useCase: ProcessCommandUseCase;
