@@ -10,7 +10,9 @@ const config: Config = {
   collectCoverageFrom: [
     'src/**/*.ts',
     '!src/**/index.ts',
-    '!src/**/*.d.ts'
+    '!src/**/*.d.ts',
+    '!src/server.ts',
+    '!src/infrastructure/telemetry/**'
   ],
   coverageDirectory: '<rootDir>/coverage',
   coverageReporters: ['text', 'lcov', 'cobertura', 'json-summary'],
